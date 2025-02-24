@@ -6,11 +6,6 @@ El proceso incluyó la recopilación y análisis de datos históricos de pedidos
 
 Los resultados indicaron que el modelo basado en **LinearRegression** ofreció el mejor desempeño, logrando un **RMSE de 8.91**, el más bajo entre todas las pruebas realizadas. Además, su tiempo de entrenamiento y predicción fue significativamente menor en comparación con los modelos no lineales. Con este modelo, se podrá prever con mayor precisión la demanda de taxis y tomar decisiones estratégicas para optimizar la asignación de vehículos, maximizando así la eficiencia operativa y la rentabilidad del servicio.
 
-## Instrucciones del Proyecto
-
-1. **Descarga los datos** y realiza el remuestreo por una hora.
-2. **Analiza los datos** para detectar patrones de tendencia y estacionalidad.
-3. **Entrena diferentes modelos** con diversos hiperparámetros. La muestra de prueba debe ser el 10% del conjunto de datos inicial.
 4. **Prueba los datos** usando la muestra de prueba y proporciona una conclusión basada en los resultados obtenidos.
 
 ## Librerías Usadas
