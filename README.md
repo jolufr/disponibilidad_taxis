@@ -1,38 +1,39 @@
-# Predicción de Pedidos de Taxis
+# 🚖 Predicción de Pedidos de Taxis
 
-En este proyecto se desarrolló un modelo predictivo con el propósito de predecir la cantidad de pedidos de taxis para la próxima hora y así optimizar la disponibilidad de conductores durante las horas pico. Se busca maximizar la eficiencia operativa y mejorar la satisfacción del cliente al anticipar la demanda de taxis en los aeropuertos.
+## 🔍 Introducción
+Este proyecto desarrolla un modelo predictivo para anticipar la cantidad de pedidos de taxis en la próxima hora.  
 
-El proceso incluyó la recopilación y análisis de datos históricos de pedidos, asegurando la integridad de la información. Se exploraron tendencias, estacionalidad y ruido en los datos, lo que permitió identificar patrones clave en la demanda. Se implementaron varios modelos de Machine Learning, incluyendo **RandomForestClassifier, XGBClassifier, LGBMClassifier y MLPClassifier**, evaluados con la métrica **AUC-ROC** para medir su rendimiento.
+## 🎯 Objetivo
+Predecir con precisión la demanda de taxis mediante modelos de Machine Learning,  
 
-Los resultados indicaron que el modelo basado en **LinearRegression** ofreció el mejor desempeño, logrando un **RMSE de 8.91**, el más bajo entre todas las pruebas realizadas. Además, su tiempo de entrenamiento y predicción fue significativamente menor en comparación con los modelos no lineales. Con este modelo, se podrá prever con mayor precisión la demanda de taxis y tomar decisiones estratégicas para optimizar la asignación de vehículos, maximizando así la eficiencia operativa y la rentabilidad del servicio.
+## 🛠️ Tecnologías Utilizadas
+- **Procesamiento de Datos**: pandas, numpy, statsmodels, IPython  
+- **Visualización**: matplotlib, seaborn  
+- **Modelado Predictivo**:  
+  - Modelos evaluados: RandomForest, XGBoost, LightGBM, MLPClassifier  
+  - Modelo seleccionado: Regresión Lineal (LinearRegression)  
+  - Métricas de evaluación: RMSE (Root Mean Squared Error), AUC-ROC  
+- **Métricas**: mean_squared_error, make_scorer  
 
-## Librerías Usadas
+## 📈 Pasos Clave (Metodología)
+### 1️⃣ Análisis y Preparación de Datos
+- Recopilación y limpieza de datos históricos de pedidos.  
+- Análisis exploratorio de tendencias y estacionalidad en la demanda de taxis.  
 
-### Procesamiento de Datos
-- `pandas`
-- `numpy`
-- `statsmodels`
-- `IPython`
+### 2️⃣ Entrenamiento del Modelo
+- Prueba de diferentes modelos de Machine Learning.  
+- Selección del mejor modelo basado en la métrica RMSE.  
 
-### Visualización
-- `matplotlib`
-- `seaborn`
+### 3️⃣ Optimización de la Predicción
+- Comparación de modelos en términos de precisión y tiempo de cómputo.  
+- Implementación del modelo de Regresión Lineal, logrando un RMSE de **8.91**.  
 
-### Modelado Predictivo
-- `catboost`
-- `lightgbm`
-- `xgboost`
-- `sklearn`
+## 📊 Resultados
+El modelo permite:
+- **Mayor precisión** en la predicción de la demanda de taxis.  
+- **Optimización de la asignación de vehículos**, reduciendo tiempos de espera.  
+- **Mejora en la eficiencia operativa**, maximizando la rentabilidad del servicio.  
 
-### Métricas
-- `mean_squared_error`
-- `make_scorer`
-
----
-
-## Cómo Ejecutar el Proyecto
-
-1. **Clona el repositorio**:
-   ```bash
-   git clone https://github.com/usuario/sweet-lift-taxi-prediction.git
-   cd sweet-lift-taxi-prediction
+## 🚀 Cómo Ejecutarlo
+```bash
+Clonar este repositorio.
